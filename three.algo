@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+ nb-vous:INTEGER=0
+ nb-words:INTEGER=1
+ nbcharacteristics :INTEGER=1
+ chor:chor
+BEGIN
+WHILE (chor<>".") 
+ read(chor)
+ nb-characteristics =n b-characteristics =1
+ IF (chor=".") THEN
+  nb-words=nb-words=1
+  else if(chor in ["o"or"i"or"a"or"u"or"y"])THEN
+  nb-vous=nb-vous+1
+ END_IF
+END_WHILE
+write(the number of words is "nb-words")
+write(the number of vous is "nb-vous")
+write(the number of characteristics is "nb-chorocter")
+END
