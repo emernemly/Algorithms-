@@ -1,1 +1,39 @@
-atou.algo
+ALGORITHM array
+VAR
+set1:=[3,1,7,9], set2[2,4,1,9,3] ,found:=BOOLEAN ,j:=0
+BEGIN
+WHILE (not found or j=set2.length-1) 
+ IF (set1[i]=set2[j]) THEN
+  found =true
+  j++
+  else if 
+  found=false
+  sum=sum+set1[i];
+ END_IF
+END_WHILE
+WHILE (not found or i=set1.length-1) 
+IF (set[j]=set[i]) THEN
+found =true
+i++
+else if
+found =false
+sum=+sum+set2[j]
+END_IF
+END_WHILE
+END
+//-----------------------------hashtable---------------------------------------
+ALGORITHM hash table
+VAR
+ set1:=[3,1,7,9], set2[2,4,1,9,3],j:=0  htab : HASH_TABLE
+BEGIN
+ for(i of set1.length)
+ IF (set1[i]=set2[j]) THEN
+    htab.insert(set1[i],1);
+ END_IF
+ END_FOR
+ FOR (j of set2.length)
+ IF (set[j]=set[i]) THEN
+  htab.insert(set2[j],2)
+ END_IF
+ END_FOR
+END
